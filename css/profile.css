@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700);
+html, body{
+height:100%;
+min-height:100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+}
+
+.btn{
+    border-radius:0;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+        margin-bottom:15px;
+
+    }
+    
+.primary-bg{
+    background-color:#F34336;
+    color:#fff;
+    }
+    
+.primary-bg:hover, .primary-bg:focus{
+    background-color:#F22C1E;
+    color:#fff;
+    }
+.secondary-bg{
+    background-color:#20BFA9;
+    color:#fff;
+    }
+    
+.secondary-bg:hover, secondary-bg:focus{
+    background-color:#1CA996;
+    color:#fff;
+    }
+/* About
+============================================== */
+
+.about {
+  display: block; 
+  background: url(../img/l.jpg) no-repeat top center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 100px 0;
+  min-height:100%;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.about .fig-profile {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto 0;
+  position: relative;
+  overflow: hidden !important;
+  border: 12px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.about .name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+.about .caption{
+    font-size:16px;
+    }
+.about .position {
+  margin: 0;
+}
+.about .location {
+  margin: 5px 0 20px 0;
+}
+.about .slogan {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.about p {
+  font-size: 16px;
+}
+.flag {
+  width: 39px;
+  margin: 0 auto;
+}
+.flag .blue {
+  background-color: #002B7F;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+.flag .yellow {
+  background-color: #FCD116;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+.flag .red {
+  background-color: #CE1126;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+
+/* Title Divider
+============================================ */
+.title-divider {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.hr-divider {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  float: left;
+  bottom: -4px;
+}
+.icon-separator {
+  float: left;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 18px;
+  color: #F34336;
+  padding: 0;
+}
+.heading-divider {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  display: flex;
+}
+.heading-divider .title {
+  flex-grow: 0;
+  -webkit-flex-grow: 0;
+  margin: 0 5px 0 0;
+  line-height: 1px;
+}
+.heading-divider .line-separator {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  height: 6px;
+  position: relative;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.masthead.clearfix {
+    margin-top: -67px;
+    padding-bottom: 14px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  
+  font-weight: initial;
+  color: #fff; /* IE8 proofing */
+  color: #616250;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #616250;
+  border-bottom-color: #616250;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #616250;
+  border-bottom-color: #616250;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+.hr-divider {
+    border-bottom: 1px solid #616250;
+    position: relative;
+    float: left;
+    bottom: -4px;
+}
+i.fa.fa-star {
+    color: #616250;
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.instagram:hover {
+  background-color:#BD3518;
+}
+
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.instagram:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+div.dv {
+    border-bottom: 1px solid #333;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 20px;
+}
